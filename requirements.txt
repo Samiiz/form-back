@@ -8,6 +8,7 @@ flask-migrate
 flask-cors
 marshmallow
 marshmallow-enum
+requests
 ## 시각화 라이브러리
 plotly
 # 데이터 분석 라이브러리

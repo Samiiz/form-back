@@ -14,3 +14,12 @@ def create_user():
     db.session.add(user)
     db.session.commit()
     return user
+
+def get_user():
+    data = request.get_json()
+    user = User.query.filter_by(email=data["email"]).first()
+    return jsonify(user.to_dict())
+
+def get_all_users():
+    users = User.query.all()
+    return jsonify([user.to_dict() for user in users])

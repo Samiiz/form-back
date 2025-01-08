@@ -5,6 +5,7 @@ pymysql
 sqlalchemy
 flask-sqlalchemy
 flask-migrate
+flask-cors
 marshmallow
 marshmallow-enum
 ## 시각화 라이브러리

@@ -9,8 +9,6 @@ migrate = Migrate()
 from app.routes import routes
 
 
-
-
 def create_app():
     application = Flask(__name__)
 
